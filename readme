@@ -1,0 +1,66 @@
+Execução:gcc -o vigenere vigenere.c codigo.c -lm  && ./vigenere
+
+resultados para a cifra:MXOXYBKPSLZBZLKPBDRFRABZFCOXOXJBKPXDBJ
+
+Descriptografada com chave [A]:MXOXYBKPSLZBZLKPBDRFRABZFCOXOXJBKPXDBJ chi:5056.947754
+Descriptografada com chave [B]:LWNWXAJORKYAYKJOACQEQZAYEBNWNWIAJOWCAI chi:25116.597656
+Descriptografada com chave [C]:KVMVWZINQJXZXJINZBPDPYZXDAMVMVHZINVBZH chi:2738.111816
+Descriptografada com chave [D]:JULUVYHMPIWYWIHMYAOCOXYWCZLULUGYHMUAYG chi:31294.421875
+Descriptografada com chave [E]:ITKTUXGLOHVXVHGLXZNBNWXVBYKTKTFXGLTZXF chi:5879.269531
+Descriptografada com chave [F]:HSJSTWFKNGUWUGFKWYMAMVWUAXJSJSEWFKSYWE chi:31046.486328
+Descriptografada com chave [G]:GRIRSVEJMFTVTFEJVXLZLUVTZWIRIRDVEJRXVD chi:1196.242065
+Descriptografada com chave [H]:FQHQRUDILESUSEDIUWKYKTUSYVHQHQCUDIQWUC chi:7128.015137
+Descriptografada com chave [I]:EPGPQTCHKDRTRDCHTVJXJSTRXUGPGPBTCHPVTB chi:753.300964
+Descriptografada com chave [J]:DOFOPSBGJCQSQCBGSUIWIRSQWTFOFOASBGOUSA chi:2982.670166
+Descriptografada com chave [K]:CNENORAFIBPRPBAFRTHVHQRPVSENENZRAFNTRZ chi:207.921417
+Descriptografada com chave [L]:BMDMNQZEHAOQOAZEQSGUGPQOURDMDMYQZEMSQY chi:3120.223145
+Descriptografada com chave [M]:ALCLMPYDGZNPNZYDPRFTFOPNTQCLCLXPYDLRPX chi:6577.108398
+Descriptografada com chave [N]:ZKBKLOXCFYMOMYXCOQESENOMSPBKBKWOXCKQOW chi:14562.825195
+Descriptografada com chave [O]:YJAJKNWBEXLNLXWBNPDRDMNLROAJAJVNWBJPNV chi:7912.220215
+Descriptografada com chave [P]:XIZIJMVADWKMKWVAMOCQCLMKQNZIZIUMVAIOMU chi:6135.567871
+Descriptografada com chave [Q]:WHYHILUZCVJLJVUZLNBPBKLJPMYHYHTLUZHNLT chi:7768.753906
+Descriptografada com chave [R]:VGXGHKTYBUIKIUTYKMAOAJKIOLXGXGSKTYGMKS chi:19108.357422
+Descriptografada com chave [S]:UFWFGJSXATHJHTSXJLZNZIJHNKWFWFRJSXFLJR chi:7718.858398
+Descriptografada com chave [T]:TEVEFIRWZSGIGSRWIKYMYHIGMJVEVEQIRWEKIQ chi:10515.063477
+Descriptografada com chave [U]:SDUDEHQVYRFHFRQVHJXLXGHFLIUDUDPHQVDJHP chi:1220.069336
+Descriptografada com chave [V]:RCTCDGPUXQEGEQPUGIWKWFGEKHTCTCOGPUCIGO chi:4426.817871
+Descriptografada com chave [W]:QBSBCFOTWPDFDPOTFHVJVEFDJGSBSBNFOTBHFN chi:1181.453857
+Descriptografada com chave [X]:PARABENSVOCECONSEGUIUDECIFRARAMENSAGEM chi:39.538380
+Descriptografada com chave [Y]:OZQZADMRUNBDBNMRDFTHTCDBHEQZQZLDMRZFDL chi:528.477661
+Descriptografada com chave [Z]:NYPYZCLQTMACAMLQCESGSBCAGDPYPYKCLQYECK chi:18824.330078
+Descriptografada com chave [[]:MXOXYBKPSLZBZLKPBDRFRABZFCOXOXJBKPXDBJ chi:5056.947754
+Descriptografada com chave [\]:LWNWXAJORKYAYKJOACQEQ@AYEBNWNWIAJOWCAI chi:26482.539062
+Descriptografada com chave []]:KVMVW@INQJX@XJIN@BPDP?@XDAMVMVH@INVB@H chi:2326.920898
+Descriptografada com chave [^]:JULUV?HMPIW?WIHM?AOCO>?WC@LULUG?HMUA?G chi:10194.052734
+Descriptografada com chave [_]:ITKTU>GLOHV>VHGL>@NBN=>VB?KTKTF>GLT@>F chi:6066.666016
+Descriptografada com chave [`]:HSJST=FKNGU=UGFK=?MAM<=UA>JSJSE=FKS?=E chi:6177.950684
+Descriptografada com chave [a]:GRIRS<EJMFT<TFEJ<>L@L;<T@=IRIRD<EJR><D chi:459.844055
+Descriptografada com chave [b]:FQHQR;DILES;SEDI;=K?K:;S?<HQHQC;DIQ=;C chi:3378.104980
+Descriptografada com chave [c]:EPGPQ:CHKDR:RDCH:<J>J9:R>;GPGPB:CHP<:B chi:1277.723755
+Descriptografada com chave [d]:DOFOP9BGJCQ9QCBG9;I=I89Q=:FOFOA9BGO;9A chi:481.062988
+Descriptografada com chave [e]:CNENO8AFIBP8PBAF8:H<H78P<9ENEN@8AFN:8@ chi:354.185577
+Descriptografada com chave [f]:BMDMN7@EHAO7OA@E79G;G67O;8DMDM?7@EM97? chi:215.741791
+Descriptografada com chave [g]:ALCLM6?DG@N6N@?D68F:F56N:7CLCL>6?DL86> chi:450.378479
+Descriptografada com chave [h]:@KBKL5>CF?M5M?>C57E9E45M96BKBK=5>CK75= chi:38928.734375
+Descriptografada com chave [i]:?JAJK4=BE>L4L>=B46D8D34L85AJAJ<4=BJ64< chi:3785.428955
+Descriptografada com chave [j]:>I@IJ3<AD=K3K=<A35C7C23K74@I@I;3<AI53; chi:20272.980469
+Descriptografada com chave [k]:=H?HI2;@C<J2J<;@24B6B12J63?H?H:2;@H42: chi:3115.075928
+Descriptografada com chave [l]:<G>GH1:?B;I1I;:?13A5A01I52>G>G91:?G319 chi:1476.626953
+Descriptografada com chave [m]:;F=FG09>A:H0H:9>02@4@/0H41=F=F809>F208 chi:3137.873779
+Descriptografada com chave [n]::E<EF/8=@9G/G98=/1?3?./G30<E<E7/8=E1/7 chi:1121.285645
+Descriptografada com chave [o]:9D;DE.7<?8F.F87<.0>2>-.F2/;D;D6.7<D0.6 chi:1617.677368
+Descriptografada com chave [p]:8C:CD-6;>7E-E76;-/=1=,-E1.:C:C5-6;C/-5 chi:808.613892
+Descriptografada com chave [q]:7B9BC,5:=6D,D65:,.<0<+,D0-9B9B4,5:B.,4 chi:3122.207764
+Descriptografada com chave [r]:6A8AB+49<5C+C549+-;/;*+C/,8A8A3+49A-+3 chi:516.052307
+Descriptografada com chave [s]:5@7@A*38;4B*B438*,:.:)*B.+7@7@2*38@,*2 chi:5351.383301
+Descriptografada com chave [t]:4?6?@)27:3A)A327)+9-9()A-*6?6?1)27?+)1 chi:583.537170
+Descriptografada com chave [u]:3>5>?(1692@(@216(*8,8A(@,)5>5>0(16>*(0 chi:583.537170
+Descriptografada com chave [v]:2=4=>A0581?A?105A)7+7@A?+(4=4=/A05=)A/ chi:583.537170
+Descriptografada com chave [w]:1<3<=@/470>@>0/4@(6*6?@>*A3<3<.@/4<(@. chi:583.537170
+Descriptografada com chave [x]:0;2;<?.36/=?=/.3?A5)5>?=)@2;2;-?.3;A?- chi:583.537170
+Descriptografada com chave [y]:/:1:;>-25.<><.-2>@4(4=><(?1:1:,>-2:@>, chi:-nan
+Descriptografada com chave [z]:.909:=,14-;=;-,1=?3A3<=;A>0909+=,19?=+ chi:583.537170
+
+Melhor descriptografia para MXOXYBKPSLZBZLKPBDRFRABZFCOXOXJBKPXDBJ foi [X]: PARABENSVOCECONSEGUIUDECIFRARAMENSAGEM com chi:39.538380
+
+:)

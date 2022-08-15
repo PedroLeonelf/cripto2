@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include "codigo.h"
 
 void generateKey(char * key, int msgLen, char * newKey){
     int keyLen = strlen(key), i, j;
@@ -37,14 +38,38 @@ void decryptChoiceWithKey(char * msg, char * key){
     printf("\nDescriptografada com chave [%s]:%s", key, decryptMsg);
 }
 
+float decryptAndChi(char * msg, char * key, char * decryptMsg){
+    
+    char newKey[strlen(msg)];
+ 
+
+    generateKey(key, strlen(msg), newKey);
+    decrypt(decryptMsg, msg, newKey);
+    writeTable("tabelaTexto.txt", decryptMsg);
+    float chi = chiQuadrado();
+    printf("\nDescriptografada com chave [%s]:%s chi:%f", key, decryptMsg, chi);
+    return chi;
+}
+
+
 void decryptChoiceNoKey(char * msg){
-    char letra;
+    char letra, melhorLetra;
     char string[2];
-    for(letra = 'A'; letra <= 'z'; letra++){
+    char decryptMsg[strlen(msg)], bestMsg[strlen(msg)];
+    char melhorResultado[strlen(msg)], key[strlen(msg)];
+    float aux,chi = decryptAndChi(msg, "A", bestMsg);
+    melhorLetra = 'A';
+    for(letra = 'B'; letra <= 'z'; letra++){
         string[0] = letra;
         string[1] = '\0'; 
-        decryptChoiceWithKey(msg, string);
+        aux = decryptAndChi(msg, string, decryptMsg);
+        if (aux < chi){
+            chi = aux;
+            strcpy(bestMsg, decryptMsg);
+            melhorLetra = letra;
+        }
     }
+    printf("\n\nMelhor descriptografia para %s foi [%c]: %s com chi:%f\n", msg,melhorLetra, bestMsg, chi);
 }
 
 
